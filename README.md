@@ -1,0 +1,3 @@
+# STM32F303CB-X3399-AUDIO
+
+STM32F303CB-X3399-AUDIO extension board project
