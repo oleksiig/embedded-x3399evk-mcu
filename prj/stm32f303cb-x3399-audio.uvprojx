@@ -368,6 +368,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\framework\hal\stm32f3\i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\framework\hal\stm32f3\dma.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
