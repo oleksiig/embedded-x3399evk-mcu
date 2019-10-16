@@ -118,6 +118,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
+          <Name>Xщ5</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -127,7 +128,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>JL2CM3</Key>
-          <Name>-U58001333 -O78 -S4 -ZTIFSpeedSel2000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(4) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F3xx_256.FLM -FS08000000 -FL020000 -FP0($$Device:STM32F303CBTx$CMSIS\Flash\STM32F3xx_256.FLM)</Name>
+          <Name>-U58001333 -O78 -S1 -ZTIFSpeedSel10000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(4) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F3xx_256.FLM -FS08000000 -FL020000 -FP0($$Device:STM32F303CBTx$CMSIS\Flash\STM32F3xx_256.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -142,7 +143,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGTARM</Key>
-          <Name>(1010=1079,153,1529,709,0)(1007=105,136,292,410,0)(1008=670,367,1036,592,0)(1009=120,152,378,739,0)(1012=-1,-1,-1,-1,0)</Name>
+          <Name>(1010=626,188,1076,744,0)(1007=105,136,292,410,0)(1008=670,367,1036,592,0)(1009=120,152,378,739,0)(1012=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -150,29 +151,84 @@
           <Name>-T0</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint/>
+      <Breakpoint>
+        <Bp>
+          <Number>0</Number>
+          <Type>0</Type>
+          <LineNumber>20</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134225524</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\!GitLab\Embedded\framework\hal\stm32f3\irq.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\fw\../../../framework/hal/stm32f3/irq.c\20</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>54</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134225704</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\!GitLab\Embedded\framework\hal\stm32f3\irq.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\fw\../../../framework/hal/stm32f3/irq.c\54</Expression>
+        </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>56</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134225716</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\!GitLab\Embedded\framework\hal\stm32f3\irq.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\fw\../../../framework/hal/stm32f3/irq.c\56</Expression>
+        </Bp>
+        <Bp>
+          <Number>3</Number>
+          <Type>0</Type>
+          <LineNumber>168</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218864</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\!GitLab\Embedded\boards\stm32f303cb-x3399-audio\src\keys_handler.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\fw\../src/keys_handler.c\168</Expression>
+        </Bp>
+      </Breakpoint>
       <WatchWindow1>
         <Ww>
           <count>0</count>
           <WinNumber>1</WinNumber>
-          <ItemText>lpSrcBuf</ItemText>
-        </Ww>
-        <Ww>
-          <count>1</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>lpClk-&gt;nRate_HZ,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>2</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>lpClk-&gt;nRate_HZ / nDiv,0x0A</ItemText>
+          <ItemText>g_pAdcRawSamples</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>
         <Mm>
           <WinNumber>1</WinNumber>
           <SubType>0</SubType>
-          <ItemText>&amp;pixel</ItemText>
+          <ItemText>g_pAdcRawSamples</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
@@ -216,6 +272,14 @@
       <pMultCmds></pMultCmds>
       <SystemViewers>
         <Entry>
+          <Name>System Viewer\ADC4</Name>
+          <WinId>35901</WinId>
+        </Entry>
+        <Entry>
+          <Name>System Viewer\DMA2</Name>
+          <WinId>35896</WinId>
+        </Entry>
+        <Entry>
           <Name>System Viewer\GPIOA</Name>
           <WinId>35903</WinId>
         </Entry>
@@ -226,14 +290,6 @@
         <Entry>
           <Name>System Viewer\RCC</Name>
           <WinId>35905</WinId>
-        </Entry>
-        <Entry>
-          <Name>System Viewer\SYSCFG</Name>
-          <WinId>35900</WinId>
-        </Entry>
-        <Entry>
-          <Name>System Viewer\TIM15</Name>
-          <WinId>35901</WinId>
         </Entry>
         <Entry>
           <Name>System Viewer\TIM2</Name>
@@ -476,6 +532,18 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\framework\hal\stm32f3\i2c.c</PathWithFileName>
       <FilenameWithoutPath>i2c.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>19</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\framework\hal\stm32f3\dma.c</PathWithFileName>
+      <FilenameWithoutPath>dma.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

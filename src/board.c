@@ -88,7 +88,7 @@ const HAL_GpioPin_t g_pPinList[] =
         GPIO_IRQ_FALLING_EDGE, ExtIRQ_Amplifier),
 
     /* ADSP controls */
-    GPIO_CONFIG(GPIOA, GPIO_BIT15,  GPIO_AF_NONE,    GPIO_OUT_PUSH_PULL_H),        // GPIO_OUT - ADSP_PWEN
+    GPIO_CONFIG(GPIOA, GPIO_BIT15,  GPIO_AF_NONE,    GPIO_OUT_PUSH_PULL_H),      // GPIO_OUT - ADSP_PWEN
 
     /* AUX */
     GPIO_CONFIG(GPIOB, GPIO_BIT1,  GPIO_AF_NONE,     GPIO_IN_PULL_UP),           // GPIO_OUT - AUX_GPIO0
@@ -101,6 +101,8 @@ const HAL_GpioPin_t g_pPinList[] =
 /* ------------------------------------------------------------------ */
 const HAL_DMA_Map_t g_pDMA_MapTable[] =
 {
+    DMA_MAP(DMA2, DMA2_Channel2, ADC4, e_HAL_DMA_Periph2Mem, 2),
+
     /* End of list */
     DMA_MAP(NULL, NULL, NULL, 0, 0)
 };
